@@ -1,8 +1,3 @@
-f1();
-function f1(){
-    console.log("inside the function");  
-}
-f1();
 import fs from 'fs';
 const writeFileSync = (path, data) => {
     try {
