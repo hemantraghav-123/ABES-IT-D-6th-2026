@@ -1,0 +1,17 @@
+{
+  "name": "day04",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "fs",
+    "file-handling"
+  ],
+  "author": "Rajesh",
+  "license": "ISC",
+  "description": "Day 04 - Node.js file handling using fs and async/await"
+}
