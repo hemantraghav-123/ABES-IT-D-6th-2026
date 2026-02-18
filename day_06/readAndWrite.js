@@ -4,21 +4,14 @@ export const readFile = async (path) => {
         const data = await fs.readFile(path, "utf-8");
         return JSON.parse(data);
     } catch (error) {
-        console.log("Unable to read");
+        console.log("unable to read file");
     }
 }
 export const writeFile = async (path, data) => {
-    let status = 0;
-    let message = "";
     try {
-        await fs.writeFile(path, data);
-        status = 200;
-        message = "Data has been written successfully";
+        await fs.writeFile(path,data);
+        console.log("data has been written successfully.");      
     } catch (error) {
-        status = 500;
-        message = "Unable to write";
+       console.log("unable to write data");      
     }
-    return {status,message};
 }
-
-
