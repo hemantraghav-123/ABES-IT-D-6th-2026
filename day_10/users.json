@@ -76,5 +76,11 @@
     "name": "abc",
     "email": "abc@gmail.com",
     "password": "12345"
+  },
+  {
+    "id": 1111,
+    "name": "Dusky",
+    "email": "nenveve@dc.er",
+    "password": "123456789"
   }
 ]
